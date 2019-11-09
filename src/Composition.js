@@ -11,7 +11,7 @@ function Composition(props) {
     let centerY = 49;
     let numOfSegments = [];
 
-    for (let i = 2.01; i < 44; i *= 1.01) {
+    for (let i = 2; i <= 44; i *= 1.01) {
       numOfSegments.push(i);
     }
     return {
